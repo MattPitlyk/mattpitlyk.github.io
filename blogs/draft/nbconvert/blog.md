@@ -1,6 +1,6 @@
 # nbconvert for converting Jupyter notebooks to static reports  
 
-When working on data projects, it's important to ensure that your analysis is solid, repeatable, and provides business value. But equally important is making sure that you communicate your findings and insights clearly to teammates and business stakeholders. 
+When working on data analysis projects, it's important to ensure that your analysis is accurate, repeatable, and provides business value. But equally important is making sure that you communicate your findings and insights clearly to teammates and business stakeholders. 
 
 While interactive dashboarding platforms such as Tableau and PowerBI provide a plethora of options for visualizing your results and allow end users great power to be able to continue analysis on their own, they take a lot of time to set up (initially and for each report) and cost money. Additionally, oftentimes stakeholders desire a simpler format that is still both user-friendly and visually attractive. 
 
@@ -12,7 +12,8 @@ This example shows part of my [sample analysis notebook](My%20Analysis%20Noteboo
 Now here is the entire [HTML report](My%20Analysis%20Notebook.html) without the parts of my Jupyter notebook or analysis that the report reader does not care about: 
 ![sample report](images/report.png)
 
-
+And here is a more complex example containing the company and report header, an interactive chart, as well as the feedback `mailto` (more on that later):  
+![sample full report](images/full_report.png)
 
 There are several reasons I like this pattern: 
 - It uses existing tools -  a custom HTML template is all I have to make myself
